@@ -1,0 +1,233 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS)
+        Publication_Date: 201503
+        Title: Airborne Gravity: NGS' Gravity Data for CN03 (2014)
+        Geospatial_Data_Presentation_Form: tabular digital data
+        Publication_Information:
+          Publication_Place: Silver Spring, MD
+          Publisher: NOAA's Ocean Service, National Geodetic Survey (NGS)
+        Online_Linkage: http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml
+        Online_Linkage: http://www.ngs.noaa.gov/GRAV-D/data_products.shtml
+        Online_Linkage: http://www.ngs.noaa.gov/
+    Description:
+      Abstract: Airborne gravity data for Nebraska collected in 2014 over one survey. This data set is part of the Gravity for the Re-definition of the American Vertical Datum (GRAV-D) project initiated by NOAA's National Geodetic Survey to collect and monitor gravity data suitable for the re-definition of the vertical datum for at least the United States and territories. The data is available at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml in ASCII text format.
+      Purpose: These data sets were collected and processed by NOAA's National Geodetic Survey (www.ngs.noaa.gov) as part of its GRAV-D effort to modernize the U.S. vertical datum. The purpose of these data is to provide accurate gravity data for geoid modeling for the U.S. and its territories. It was designed to provide medium wavelength gravity information (around 20-400 km) to connect satellite and ground gravity measurements.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times:
+          Beginning_Date: 201407
+          Ending_Date: 201409
+      Currentness_Reference: ground condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: As needed
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -102.8
+        East_Bounding_Coordinate: -96.8
+        North_Bounding_Coordinate: 43.1
+        South_Bounding_Coordinate: 40.0
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: geoscientificInformation
+      Theme:
+        Theme_Keyword_Thesaurus: NOS Data Explorer Topic Category
+        Theme_Keyword: Geodetic/Global Positioning
+      Theme:
+        Theme_Keyword_Thesaurus: NASA/GCMD Earth Science Keywords
+        Theme_Keyword: Earth Science > Atmosphere > Altitude > Geopotential Height
+        Theme_Keyword: Earth Science > Solid Earth > Geodetics/Gravity > Gravitation Field
+        Theme_Keyword: Earth Science > Solid Earth > Geodetics/Gravity > Gravity
+        Theme_Keyword: Earth Science > Oceans > Marine Geophysics > Marine Gravity Field
+        Theme_Keyword: Earth Science > Solid Earth > Geodetics/Gravity > Geoid Properties
+      Theme:
+        Theme_Keyword_Thesaurus: NASA/GCMD Platform Keywords
+        Theme_Keyword: Platform > Aircraft > TurboCommander 1000 695A
+        Theme_Keyword: Platform > Earth Observation Satellites > GOCE > Gravity Field and Steady-State Ocean Circulation Explorer
+        Theme_Keyword: Platform > Earth Observation Satellites > GPS > Global Positioning System Satellites
+        Theme_Keyword: Platform > Earth Observation Satellites > GRACE > Gravity Recovery and Climate Experiment
+        Theme_Keyword: Platform > In Situ Land-based Platform > GROUND-BASED OBSERVATIONS
+        Theme_Keyword: Platform > Earth Observation Satellites > ERS1
+        Theme_Keyword: Platform > Earth Observation Satellites > ERS2
+        Theme_Keyword: Platform > Earth Observation Satellites > ENVISAT
+        Theme_Keyword: Platform > Earth Observation Satellites > TOPEX/Poseidion
+        Theme_Keyword: Platform > Earth Observation Satellites > Jason-1
+        Theme_Keyword: Platform > Earth Observation Satellites > Jason-2
+      Theme:
+        Theme_Keyword_Thesaurus: NASA/GCMD Instrument Keywords
+        Theme_Keyword: Instrument > InSitu/Laboratory Instruments > GRAVIMETERS
+        Theme_Keyword: Instrument > InSitu/Laboratory Instruments > LRGM > Lacoste-Romberg Gravity Meter
+        Theme_Keyword: Instrument > InSitu/Laboratory Instruments > GPS RECEIVERS
+        Theme_Keyword: Instrument > InSitu/Laboratory Instruments > INERTIAL MEASUREMENT UNITS
+      Theme:
+        Theme_Keyword_Thesaurus: NASA/GCMD Data Center Keywords
+        Theme_Keyword: Data Center > Government Agencies-U.S. Federal Agencies > DOC/NOAA/NOS/NGS > National Geodetic Survey, National Ocean Service, NOAA, U.S. Department of Commerce
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: geodetic
+        Theme_Keyword: National Spatial Reference System
+        Theme_Keyword: NSRS
+        Theme_Keyword: spatial reference
+        Theme_Keyword: gravity
+        Theme_Keyword: geoid
+        Theme_Keyword: height modernization
+        Theme_Keyword: orthometric height
+        Theme_Keyword: ellipsoid height
+        Theme_Keyword: vertical
+        Theme_Keyword: datum
+        Theme_Keyword: NAVD88
+        Theme_Keyword: North American Vertical Datum of 1988
+        Theme_Keyword: GGOS
+        Theme_Keyword: Global Geodetic Observing system
+        Theme_Keyword: GEOSS
+        Theme_Keyword: Global Earth Observation System of Systems
+        Theme_Keyword: airborne gravity
+        Theme_Keyword: geophysical
+      Place:
+        Place_Keyword_Thesaurus: NASA/GCMD Location Keywords
+        Place_Keyword: Location > Continent > North America > United States of America
+        Place_Keyword: Location > Continent > North America > United States of America > Nebraska
+        Place_Keyword: Location > Continent > North America > United States of America > Colorado
+        Place_Keyword: Location > Continent > North America > United States of America > South Dakota
+    Access_Constraints: None
+    Use_Constraints: Must read and fully comprehend the metadata prior to use, acknowledgment of the Originator when using the data set as a source, data should not be used beyond the limits of the source scale
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: NOAA's National Geodetic Survey
+        Contact_Address:
+          Address_Type: mailing and physical
+          Address: 1315 East West Highway SSMC3 8th Floor
+          City: Silver Spring
+          State_or_Province: MD
+          Postal_Code: 20910
+        Contact_Voice_Telephone: 301-713-3242
+        Contact_Electronic_Mail_Address: ngs.grav-d@noaa.gov
+        Hours_of_Service: 8:00am - 5:00pm EST
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report: The absolute accuracy of airborne gravity is difficult to quantify. The following measures are indicators of data quality, but are not definitive measures. The cross over precision is 2.11 mGals, which is a combination of differences between cross track and data track and may not be indicative of data quality. Adjacent data lines have an average cross-correlation of 87.43%. Low correlation between adjacent lines may indicate either poor quality on one of the two lines or rapidly changing features. More detailed information can be found at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml.
+    Logical_Consistency_Report: Data processing is fully automated and output file is computer generated. All lines are checked by an analyst and any errors in production are corrected. More detailed information can be found at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml.
+    Completeness_Report: Due to the altitude, speed of data collection, and track spacing of 10 kilometers the resolution of these data are limited to 20 kilometers. More detailed information can be found at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: GPS horizontal positions are good to 0.009 meters average standard deviation. More detailed information can be found at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: GPS vertical positions are good to 0.008 meters average standard deviation. More detailed information can be found at http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: NOAA's National Geodetic Survey
+            Publication_Date: Unpublished material
+            Title: Raw GPS + Gravity Data from NE14 Survey
+            Geospatial_Data_Presentation_Form: tabular digital data
+        Type_of_Source_Media: digital
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 201407
+              Ending_Date: 201409
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: NE14
+        Source_Contribution: Airborne gravity survey, including data collection from airborne and ground GPS, IMUs, and gravimeters, that was included in this geographic block
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: NOAA's National Geodetic Survey
+            Publication_Date: Unpublished material
+            Title: Processed GPS Data from NE14 Survey
+        Type_of_Source_Media: digital
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 201407
+              Ending_Date: 201409
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: NE14 GPS-Processed
+        Source_Contribution: Processed GPS data is created from tying kinematic GPS data from the plane to base stations on the ground and is used to process and tie gravity measurements
+      Process_Step:
+        Process_Description: GPS data processed using Inertial Explorer v 8.5
+        Source_Used_Citation_Abbreviation: NE14
+        Process_Date: 201411
+        Source_Produced_Citation_Abbreviation: NE14 GPS-Processed
+      Process_Step:
+        Process_Description: Gravity data processed using NGS software Newton version 1.2
+        Source_Used_Citation_Abbreviation: NE14
+        Process_Date: 201411
+        Source_Produced_Citation_Abbreviation: NE14
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Point
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: String
+        Point_and_Vector_Object_Count: 125431
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.000000001
+        Longitude_Resolution: 0.000000001
+        Geographic_Coordinate_Units: Decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name: World Geodetic System 84
+        Ellipsoid_Name: World Geodetic System 84
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257223563
+    Vertical_Coordinate_System_Definition:
+      Altitude_System_Definition:
+        Altitude_Datum_Name: World Geodetic System 84
+        Altitude_Resolution: 0.001
+        Altitude_Distance_Units: meters
+        Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+  Entity_and_Attribute_Information:
+    Overview_Description:
+      Entity_and_Attribute_Overview: The ASCII text file provides a single processed observation per row with the following elements comma separated: year, month, day, hour, minutes, seconds,  latitude (dd), longitude (dd), ellipsoid height (m), full field gravity at altitude (mGals), full field EGM08 gravity at altitude (mGal)
+      Entity_and_Attribute_Detail_Citation: http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: NOAA National Geodetic Survey
+        Contact_Position: Project Manager
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 1315 East West Highway SSMC3 8th floor
+          City: Silver Spring
+          State_or_Province: MD
+          Postal_Code: 20910
+        Contact_Voice_Telephone: 301-713-3242
+        Contact_Electronic_Mail_Address: ngs.grav-d@noaa.gov
+    Resource_Description: Downloadable Data
+    Distribution_Liability: While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ASCII
+          File_Decompression_Technique: No compression applied
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://www.ngs.noaa.gov/GRAV-D/data_cn03.shtml
+      Fees: No cost
+  Metadata_Reference_Information:
+    Metadata_Date: 201502
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: NOAA National Geodetic Survey
+        Contact_Position: GRAV-D Project Manager
+        Contact_Address:
+          Address_Type: mailing and physical
+          Address: 1315 East West Highway, SSMC3 8th floor
+          City: Silver Spring
+          State_or_Province: MD
+          Postal_Code: 20910
+        Contact_Voice_Telephone: 301-713-3242
+        Contact_Electronic_Mail_Address: ngs.grav-d@noaa.gov
+    Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
