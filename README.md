@@ -25,7 +25,7 @@ tip - If you are new to github, download github desktop for faster working becau
 4. IMP - Explain the steps [here](https://www.dropbox.com/scl/fi/uun1m9xwssywjvfamsoll/CE678-LAB.paper?dl=0&rlkey=nuggb6ffqvkql010m8ll3uwtx) you have to take in your answer (just an overview) for others to understand and not waste their time to reach up to you. 
 ### PROGRESS
 
-|        Question        |ASCII                          |
+|        Question        |PROGRESS                         |
 |----------------|-------------------------------|
 |1				 |    Done        |
 |2               | File is downloaded, processing is left |          |
