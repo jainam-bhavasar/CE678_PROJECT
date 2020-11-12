@@ -18,6 +18,7 @@ Take note of these points -
 #### 2. Working
 0. First learn how to use github - watch any  youtube video , you will understand.
 tip - If you are new to github, download github desktop for faster working because command line tools will overwhelm you the first time.
+
 1.If you want to start working, then create a new branch and start working
 2. When done, merge into the master branch.
 3. IMP - WRITE APPROPRIATE COMMENTS IN THE  FILE 'project.ipynb' with your name in it.  
