@@ -28,10 +28,10 @@ tip - If you are new to github, download github desktop for faster working becau
 |        Question        |PROGRESS                         |
 |----------------|-------------------------------|
 |1				 |    Done        |
-|2               | File is downloaded, processing is left |          |
-|3               |No started|
-|4               |No started|
-|5               |No started|
+|2               | Done           |
+|3               |Done|
+|4               |Done|
+|5               |Done|
 |6               |No started|
 |7               |No started|
 |8               |No started|
