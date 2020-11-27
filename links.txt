@@ -2,3 +2,4 @@
 1. https://www.researchgate.net/publication/225259421_An_Alternative_Algorithm_to_FFT_for_the_Numerical_Evaluation_of_Stokes's_Integral
 2.https://www.diva-portal.org/smash/get/diva2:1064985/FULLTEXT01.pdf
 3.https://academic.oup.com/gji/article/155/3/914/632085
+4. https://www.codeproject.com/Questions/626899/Converting-Latitude-And-Longitude-to-an-X-Y-Coordi
