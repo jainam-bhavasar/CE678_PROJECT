@@ -12,6 +12,8 @@ We use classical remove-restore method to find geoid height in this code.
 
 If stuck anywhere use this guide or type help corresponding to the function in Matlab.
 
+There is a also a file `project.ipynb` that we have created to demonstrate our code on Nebraska,USA.
+
 ### Step 1
 
 1. Download the airborne gravity data from [here](https://geodesy.noaa.gov/GRAV-D/data_products.shtml) by choosing any state tile.
