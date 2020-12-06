@@ -30,9 +30,9 @@ tip - If you are new to github, download github desktop for faster working becau
 |3               |Done|
 |4               |Done|
 |5               |Done|
-|6               |No started|
-|7               |No started|
-|8               |No started|
-|9               |No started|
-|10              |No started|
-|11              |No started|
+|6               |Done|
+|7               |Done|
+|8               |Done|
+|9               |Done|
+|10              |Done|
+|11              |Done|

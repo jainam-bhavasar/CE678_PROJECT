@@ -9,20 +9,21 @@
 % and they must be inside or equal to the area covered by the DEM heights data.
 %
 % TIP - download DEM values from  <a href="matlab:web('http://srtm.csi.cgiar.org/srtmdata/','-browser')">here</a>
-% 
+% TIP - Use  <a href="matlab:help create_grid">create_grid</a> function for creating Latitude and Longitude grid
+%
 % OUTPUT - 
 % H - dem heights mapped over latitude and longitude grid
 
 function Hs = combine_DEM_data(files,Latitude_grid,Longitude_grid)
     %getting and setting DEM Heights
-    Hs = zeros([500*size(files,1) 500]);
-    HsLats = zeros([500*size(files,1) 500]);
-    HsLons = zeros([500*size(files,1) 500]);
+    Hs = zeros([500*length(files) 500]);
+    HsLats = zeros([500*length(files) 500]);
+    HsLons = zeros([500*length(files) 500]);
 
-    for i = 1:size(files)
+    for i = 1:length(files)
     
-        fid = fopen(files(i,:));
-         H = importdata(files(i,:),' ',6).data;
+        fid = fopen(files(i));
+         H = importdata(files(i),' ',6).data;
          H(H==-9999)=0;
          H(H<0)=0;
          

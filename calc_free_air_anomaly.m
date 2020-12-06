@@ -13,5 +13,5 @@
 function anomaly = calc_free_air_anomaly(g_observed,lat,ellipsoid,height)
     %calling calc_FAC and calc_gnorm_ellip_surface
     %using formula g_anomaly = g_observed - g_free_air_correction - gamma_normal_gravity
-    anomaly = g_observed - calc_FAC(lat,ellipsoid,height) - calc_gnorm_ellip_surface(lat,ellipsoid);
+    anomaly = g_observed + calc_FAC(lat,ellipsoid,height) - calc_gnorm_ellip_surface(lat,ellipsoid);
 end

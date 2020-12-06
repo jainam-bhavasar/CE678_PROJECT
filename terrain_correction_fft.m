@@ -71,6 +71,7 @@ function TC = terrain_correction_fft(H,lat,long,res)
         
         disp('FFT kernel for TC')
         FK=fft2(fftshift(K));
+       
         clear K
         disp('FFT H^2')
         FH2=fft2(H.^2);
