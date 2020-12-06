@@ -64,6 +64,7 @@ function TC = terrain_correction_fft(H,lat,long,res)
         K=W./l3;
         % apply a spherical cap to zero the kernel off outside some set radius
         K(l<111319.9*res)=0;
+        K = K';
         % Free up some memory
         clear l l3 W dz
         %% compute 2D fft for the Heights, Heights^2 and kernel
@@ -86,8 +87,8 @@ function TC = terrain_correction_fft(H,lat,long,res)
         delx = 111319.9*cosd(Mlat)*res;
         dely = 111319.9*res;
         TC=c*delx*dely*(TCterm1+TCterm2+TCterm3);
-        TC = TC(end/3:2*end/3,end/3:2*end/3);
-        disp(['time taken: ',num2str(toc)])
+        TC = TC(end/3+1:2*end/3,end/3+1:2*end/3);
+
         end
     
     
