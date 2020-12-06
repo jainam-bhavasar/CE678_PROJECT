@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CN03 Data Lines</name>
+	<Folder>
+		<name>Data Lines</name>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 507</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>507<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.981171,39.910034,0 -97.356812,43.201488,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 101</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>101<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.738090,42.970777,0 -102.920279,42.983051,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 107</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>107<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.705559,42.444621,0 -96.742157,42.431490,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 111</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>111<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.572292,42.065484,0 -102.919352,42.081602,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 112</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>112<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.716062,41.993549,0 -96.768122,41.983197,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 501</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>501<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.553861,43.218207,0 -102.564275,39.892186,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 102</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>102<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.432526,42.901134,0 -96.804257,42.883045,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 103</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>103<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.739182,42.791171,0 -102.681598,42.805489,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 502</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>502<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-101.683082,43.142619,0 -101.635642,39.933695,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 132</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>132<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.637167,40.178432,0 -102.901640,40.191031,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 133</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>133<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.884936,40.097984,0 -96.701711,40.090752,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 119</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>119<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.851207,41.353882,0 -102.911655,41.358957,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 120</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>120<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.845848,41.272454,0 -96.712854,41.259641,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 121</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>121<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-95.878181,41.144791,0 -102.872120,41.180780,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 122</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>122<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.818779,41.094082,0 -96.413861,41.070093,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 123</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>123<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.263877,40.978034,0 -102.864445,41.002737,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 124</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>124<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.909706,40.910872,0 -96.533362,40.894784,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 104</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>104<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.746234,42.700713,0 -102.924657,42.708477,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 108</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>108<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.839169,42.350371,0 -96.687961,42.337956,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 109</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>109<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-97.206959,42.264081,0 -102.881375,42.261670,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 110</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>110<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.835448,42.171732,0 -96.649522,42.158267,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 113</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>113<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.211349,41.874057,0 -102.913973,41.900178,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 114</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>114<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.930353,41.809475,0 -96.536715,41.795285,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 115</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>115<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.469760,41.703048,0 -102.881971,41.717680,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 116</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>116<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.783119,41.631432,0 -96.439941,41.612800,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 117</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>117<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.649247,41.529269,0 -102.813009,41.542454,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 118</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>118<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.561803,41.457357,0 -96.552108,41.434314,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 131</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>131<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.796201,40.274467,0 -102.963738,40.279722,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 129</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>129<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.517462,40.446505,0 -102.747483,40.466660,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 130</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>130<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.758981,40.373052,0 -96.581195,40.357738,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 125</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>125<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.548237,40.805213,0 -102.925466,40.819821,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 503</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>503<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-100.817316,43.192685,0 -100.709549,39.921795,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 105</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>105<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.622744,42.607581,0 -102.773255,42.624001,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 106</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>106<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.644836,42.536753,0 -96.627175,42.517935,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 127</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>127<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.438383,40.623561,0 -102.957283,40.639799,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 128</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>128<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-102.783221,40.554591,0 -96.787362,40.544236,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 504</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>504<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-99.774464,39.925068,0 -99.951228,43.141842,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 505</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>505<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-99.077037,43.115825,0 -98.836709,39.914206,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 506</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>506<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-98.209746,43.141449,0 -97.914903,39.948466,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+				<Style>
+					<LineStyle>
+						<color>ff000000</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<name>Line 326</name>
+			<description>
+				<![CDATA[
+					<b>GRAV-D Data Block: </b>CN03<br></br>
+					<b>Flight Line #</b>326<br></br>
+					<b>Date Line was Completed: </b><br>
+				]]>
+				</description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				-96.623913,40.717125,0 -102.956057,40.727098,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
