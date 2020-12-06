@@ -68,7 +68,7 @@ From the free-air gravity anomaly, remove the effect of a global gravity field m
 $$ --> 
 
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5C%26%20%5Cmathrm%7Bmw%7D%7D%3D%5CDelta%20g-%5CDelta%20g_%7B%5Cmathrm%7BGGM%7D%7D"></div>
-The resultant reduced gravity anomaly  $\Delta g_{\mathrm{s} \& \mathrm{mw}}$ contains only the medium and the short wave- lengths.
+The resultant reduced gravity anomaly  <!-- $\Delta g_{\mathrm{s} \& \mathrm{mw}}$ --> <img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5C%26%20%5Cmathrm%7Bmw%7D%7D"> contains only the medium and the short wave- lengths.
 
 Download gravity anomaly of any GGM model from [here](http://icgem.gfz-potsdam.de/calcgrid).
 
