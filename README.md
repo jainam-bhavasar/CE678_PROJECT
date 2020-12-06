@@ -14,6 +14,8 @@ If stuck anywhere use this guide or type help corresponding to the function in M
 
 There is a also a file `project.ipynb` that we have created to demonstrate our code on Nebraska,USA.
 
+Also `project.pdf` is the project report file.
+
 ### Step 1
 
 1. Download the airborne gravity data from [here](https://geodesy.noaa.gov/GRAV-D/data_products.shtml) by choosing any state tile.
