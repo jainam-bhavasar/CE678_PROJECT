@@ -60,11 +60,15 @@ Here `Ellipsoid` is a `struct` used for storing important constants of Earth.For
 
 ### Step 4
 
-From the free-air gravity anomaly, remove the effect of a global gravity field model, a long- wavelength gravity anomaly $\Delta g_{\mathrm{GGM}}$
-$$
+From the free-air gravity anomaly, remove the effect of a global gravity field model, a long- wavelength gravity anomaly <img src="https://render.githubusercontent.com/render/math?math=\Delta g_{\mathrm{GGM}}">
+
+
+<!-- $$
 \Delta g_{\mathrm{s} \& \mathrm{mw}}=\Delta g-\Delta g_{\mathrm{GGM}}
-$$
-The resultant reduced gravity anomaly $\Delta g_{\mathrm{s} \& \mathrm{mw}}$ contains only the medium and the short wave- lengths.
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5C%26%20%5Cmathrm%7Bmw%7D%7D%3D%5CDelta%20g-%5CDelta%20g_%7B%5Cmathrm%7BGGM%7D%7D"></div>
+The resultant reduced gravity anomaly  $\Delta g_{\mathrm{s} \& \mathrm{mw}}$ contains only the medium and the short wave- lengths.
 
 Download gravity anomaly of any GGM model from [here](http://icgem.gfz-potsdam.de/calcgrid).
 
