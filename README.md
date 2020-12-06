@@ -47,9 +47,11 @@ If stuck anywhere use this guide or type help corresponding to the function in M
 ### Step 3
 
 Calculate the free air anomaly using the formula
-$$
+<!-- $$
 \Delta g=\left(g_{\text {observed }}+\delta g_{\text {Free air }}\right)-\gamma
-$$
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g%3D%5Cleft(g_%7B%5Ctext%20%7Bobserved%20%7D%7D%2B%5Cdelta%20g_%7B%5Ctext%20%7BFree%20air%20%7D%7D%5Cright)-%5Cgamma"></div>
 Code - 
 
 [`free_air_anomily = calc_free_air_anomaly(gravity_filtered,latitude,Ellipsoid,orthometric_height)`](https://github.com/Jainam-IITK/CE678_PROJECT/blob/main/calc_free_air_anomaly.m)
@@ -88,15 +90,19 @@ Code-
 ### Step 5
 
 A correction to account for the gravitational attraction of the attraction must be applied
-$$
+<!-- $$
 \Delta g_{\mathrm{s} \ell \mathrm{mw}}^{\mathrm{atm}}=\Delta g_{\mathrm{s} \& \mathrm{mw}}-\delta g_{\mathrm{atm}}
-$$
+$$ --> 
 
-$$
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5Cell%20%5Cmathrm%7Bmw%7D%7D%5E%7B%5Cmathrm%7Batm%7D%7D%3D%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5C%26%20%5Cmathrm%7Bmw%7D%7D-%5Cdelta%20g_%7B%5Cmathrm%7Batm%7D%7D"></div>
+
+<!-- $$
 \begin{aligned}
 \delta g_{\mathrm{atm}}=0.871-& 1.0298 \times 10^{-4} H+5.3105 \times 10^{-9} H^{2}-2.1642 \times 10^{-13} H^{3}+9.5246 \times 10^{-18} H^{4}-2.2411 \times 10^{-22} H^{5}
 \end{aligned}
-$$
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%5Cdelta%20g_%7B%5Cmathrm%7Batm%7D%7D%3D0.871-%26%201.0298%20%5Ctimes%2010%5E%7B-4%7D%20H%2B5.3105%20%5Ctimes%2010%5E%7B-9%7D%20H%5E%7B2%7D-2.1642%20%5Ctimes%2010%5E%7B-13%7D%20H%5E%7B3%7D%2B9.5246%20%5Ctimes%2010%5E%7B-18%7D%20H%5E%7B4%7D-2.2411%20%5Ctimes%2010%5E%7B-22%7D%20H%5E%7B5%7D%0A%5Cend%7Baligned%7D"></div>
 
 Code-
 
@@ -104,7 +110,7 @@ Code-
 
 ### Step 6
 
-Convert the gravity anomaly $\Delta g_{\mathrm{s} \& \mathrm{mw}}^{\mathrm{atm}}$ data points into a grid
+Convert the gravity anomaly <!-- $\Delta g_{\mathrm{s} \& \mathrm{mw}}^{\mathrm{atm}}$ --> <img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Cmathrm%7Bs%7D%20%5C%26%20%5Cmathrm%7Bmw%7D%7D%5E%7B%5Cmathrm%7Batm%7D%7D"> data points into a grid
 
 Ex Code - 
 
@@ -120,7 +126,7 @@ Ex Code -
 
    `files = ["file1path","file2path"...]`
 
-Apply gravimetric terrain reduction $\delta g_{\mathrm{T}}$ to  compute the Faye anomaly $\Delta g_{\text {Faye }}$.
+Apply gravimetric terrain reduction <!-- $\delta g_{\mathrm{T}}$ --> <img src="https://render.githubusercontent.com/render/math?math=%5Cdelta%20g_%7B%5Cmathrm%7BT%7D%7D"> to  compute the Faye anomaly <!-- $\Delta g_{\text {Faye }}$ --> <img src="https://render.githubusercontent.com/render/math?math=%5CDelta%20g_%7B%5Ctext%20%7BFaye%20%7D%7D">.
 
 Code - 
 
@@ -129,29 +135,35 @@ Code -
 ### Step 8
 
 Calculate disturbing potential by using Stokes integral.
-$$
+<!-- $$
 T_{r}=\frac{R}{4 \pi} \iint_{\Omega} \Delta g_{\text {Faye }} S(\psi) d \Omega
-$$
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=T_%7Br%7D%3D%5Cfrac%7BR%7D%7B4%20%5Cpi%7D%20%5Ciint_%7B%5COmega%7D%20%5CDelta%20g_%7B%5Ctext%20%7BFaye%20%7D%7D%20S(%5Cpsi)%20d%20%5COmega"></div>
 [`Tr = calc_disturb_potential(Latitude_grid,Longitude_grid,gfaye);`](https://github.com/Jainam-IITK/CE678_PROJECT/blob/main/calc_disturb_potential.m)
 
 ### Step 9
 
 By using Bruns’s formula, calculate undulation.
-$$
+<!-- $$
 N_{r}=\frac{T_{r}}{\gamma}
-$$
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=N_%7Br%7D%3D%5Cfrac%7BT_%7Br%7D%7D%7B%5Cgamma%7D"></div>
 [`Nr = calc_undulation(Tr,Latitude_grid,Ellipsoid);`](https://github.com/Jainam-IITK/CE678_PROJECT/blob/main/calc_undulation.m)
 
 
 
 ### Step 10
 
-Restore the undulation $\left(N_{G G M}\right)$ corresponding to the removed long-wavelength gravity anomaly
+Restore the undulation <!-- $\left(N_{G G M}\right)$ --> <img src="https://render.githubusercontent.com/render/math?math=%5Cleft(N_%7BG%20G%20M%7D%5Cright)"> corresponding to the removed long-wavelength gravity anomaly
 
-of the GGM model $\left(\Delta g_{G G M}\right)$ . You will get a co-geoid
-$$
+of the GGM model <!-- $\left(\Delta g_{G G M}\right)$ --> <img src="https://render.githubusercontent.com/render/math?math=%5Cleft(%5CDelta%20g_%7BG%20G%20M%7D%5Cright)">   . You will get a co-geoid
+<!-- $$
 N_{\text {cogeoid }}=N_{r}+N_{\text {GGM }}
-$$
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=N_%7B%5Ctext%20%7Bcogeoid%20%7D%7D%3DN_%7Br%7D%2BN_%7B%5Ctext%20%7BGGM%20%7D%7D"></div>
 
 
 [`N_co_geoid = calc_n_cogeoid(Nr,nggm,latitude,longitude,Latitude_grid,Longitude_grid);`](https://github.com/Jainam-IITK/CE678_PROJECT/blob/main/calc_n_cogeoid.m)
