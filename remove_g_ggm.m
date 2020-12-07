@@ -12,6 +12,5 @@
 % TIP1 - Use <a href="matlab:help calc_free_air_anomaly"> calc_free_air_anomaly</a> for calculating g_faa
 % TIP2 - Use <a href="matlab:help import_grav_anomaly"> import_grav_anomaly</a> for importing g_ggm
 function g_msw = remove_g_ggm(g_faa,g_ggm)
-    g_ggm = griddata(lat_ggm, lon_ggm, g_ggm, lat_faa, lon_faa, "nearest");
     g_msw = g_faa - g_ggm;
 end
