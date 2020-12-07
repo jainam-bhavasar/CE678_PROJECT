@@ -2,8 +2,6 @@
 
 Geoid modelling ce678 project
 
-Geoid modelling ce678 project
-
 ## REGIONAL GEOID MODELLING
 
 ## REGIONAL GEOID MODELLING
@@ -19,11 +17,7 @@ Geoid modelling ce678 project
 5. Vyush
 6. Sachin
 
-## How to use
 
-This is our main working folder. Our project is very big , so this will help keeping track of the changes made by each member and organise our code.
-
-This is a guide on how to use this software We use classical remove-restore method to find geoid height in this code.
 
 ### HOW TO USE
 
