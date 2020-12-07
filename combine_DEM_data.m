@@ -15,46 +15,23 @@
 % H - dem heights mapped over latitude and longitude grid
 
 function Hs = combine_DEM_data(files,Latitude_grid,Longitude_grid)
-    %getting and setting DEM Heights
-    Hs = zeros([500*length(files) 500]);
-    HsLats = zeros([500*length(files) 500]);
-    HsLons = zeros([500*length(files) 500]);
-
-    for i = 1:length(files)
     
-        fid = fopen(files(i));
-         H = importdata(files(i),' ',6).data;
-         H(H==-9999)=0;
-         H(H<0)=0;
-         
-       
-        %getting latitudes and longitudes
-        for j = 1:6
-            str = fgets(fid);
-            if j == 3
-                minlon = str2double(regexprep(str,'[a-zA-Z\s]',''));
-            elseif j==4
-                minlat = str2double(regexprep(str,'[a-zA-Z\s]',''));
-            end
-            
-        end
-        
-        maxlat = minlat+5;
-        maxlon = minlon+5; 
-        
-        % setting up grid and H 
-        H = H(1:12:end,1:12:end);
-        Hlat = linspace(maxlat,minlat,500);
-        Hlon = linspace(minlon,maxlon,500);
-        [Hlat,Hlon] = meshgrid(Hlat,Hlon);
-        start_row =(500*(i-1)+1);
-        end_row = (500*(i-1)+500);
-        
-        Hs(start_row:end_row,:) = H;
-        HsLats(start_row:end_row,:) = Hlat;
-        HsLons(start_row:end_row,:) = Hlon;
-        
-    end
-    Hs = griddata(HsLons,HsLats,Hs,Longitude_grid,Latitude_grid,"nearest");
-    Hs(isnan(Hs)) = 0;
+   
+    H1 = importdata(files(1),' ',6).data;
+    H2 = importdata(files(2),' ',6).data;
+    Hs = [H1(:,1:end-1) ,H2]' ;
+    
+    
+    lat = linspace(40,45,6000);
+    long1  =  linspace(-105,-100,6000);
+    long2  = linspace (-100,-95,6000);
+    long = [long1(1:end-1), long2];
+    [latm, longm] = meshgrid(lat, long);
+    
+    
+    
+    Hs = Hs(1:12:end,1:12:end);
+    longm = longm(1:12:end,1:12:end);
+    latm = latm(1:12:end,1:12:end);
+    Hs = griddata(latm,longm,Hs,Latitude_grid,Longitude_grid);
 end
